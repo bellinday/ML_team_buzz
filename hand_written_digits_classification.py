@@ -47,6 +47,7 @@ print(samples.shape, label.shape)
 test_examples = iter(test_data)
 test_samples, test_lables = test_examples.__next__()
 
+#halloooooo
 
 # for i in range(6):
 #     plt.subplot(3,3, i+1)
