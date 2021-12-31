@@ -9,10 +9,6 @@ import torchvision
 from torch.utils import data
 from torchvision import transforms
 
-# steps involved:
-# 1. Download and define the training, testing data
-# 2. Define the model by creating neural networks
-# 3. Calculate the gradient, loss and update the model
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(device)
